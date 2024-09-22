@@ -2,9 +2,9 @@
   "name": "auth",
   "version": "1.0.0",
   "description": "new authantication tut.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
