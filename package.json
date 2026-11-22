@@ -1,16 +1,22 @@
 {
   "name": "auth",
   "version": "1.0.0",
-  "description": "new authantication tut.",
+  "description": "Minimal Express app with an authentication route scaffold",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node --test",
+    "format": "prettier --write ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "authentication",
+    "ejs"
+  ],
+  "author": "EBESYtheCoder",
   "license": "ISC",
   "dependencies": {
-    "auth": "file:",
     "ejs": "^3.1.10",
     "express": "^4.21.0",
     "express-openid-connect": "^2.17.1"
